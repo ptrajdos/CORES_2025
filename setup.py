@@ -29,6 +29,7 @@ setup(
                 'tabulate==0.9.0',
                 'Jinja2==3.1.2',
                 'seaborn==0.13.2',
+		'kernelnb @ git+https://github.com/ptrajdos/KernelNB.git',
                 
         ],
         test_suite='test'

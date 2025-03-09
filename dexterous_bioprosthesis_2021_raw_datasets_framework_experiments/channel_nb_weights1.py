@@ -116,7 +116,6 @@ from kernelnb.estimators.kernelnb import KernelNB
 from kernelnb.estimators.estimatornb import EstimatorNB
 
 import random
-from ptranks.ranks.wra import wra
 from scipy.stats import rankdata
 
 # Plot line colors and markers
