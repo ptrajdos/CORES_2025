@@ -3,7 +3,7 @@ import platform
 
 
 setup(
-        name='dexterous_bioprosthesis_2021_raw_datasets_framework',
+        name='CORES_2025',
         version ='0.0.1',
         author='Pawel Trajdos',
         author_email='pawel.trajdos@pwr.edu.pl',
@@ -26,7 +26,6 @@ setup(
                 'statsmodels==0.13.5',
                 'PyWavelets==1.4.1',
                 'pt_outlier_probability @ git+https://github.com/ptrajdos/ptOutlierProbability.git@4d137a12220612ed6078178a6cf54b4c98699d99',
-                'ptranks @ git+https://github.com/ptrajdos/ptranks.git@7af07a0f3666f15b2794b078da440bcf89fae65b',
                 'tabulate==0.9.0',
                 'Jinja2==3.1.2',
                 'seaborn==0.13.2',

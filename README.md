@@ -24,15 +24,15 @@ To run all experiments type:
 ```
 make run
 ```
-<!-- TODO update -->
-Results will be placed in: __./experiments\_results/outlier\_detection\_experiment\_snr2__.
+
+Results will be placed in: __./experiments\_results/results\_channel\_nb\_weights__.
 Directory structure:
 
   + Single set
     + *A[1-9]_Force_Exp_low_windowed.pickle* -- raw results (for a single set) as numpy arrays
     + *A[1-9]_Force_Exp_low_windowed.pdf* -- raw results (for a single set) as boxplots. It include results for all quality criteria, all classifiers, all SNR levels, and signal spoilers.
     + *A[1-9]_Force_Exp_low_windowed.md* -- raw results (for a single set) in tabular form (average and standard deviation). It include results for all quality criteria, all classifiers, all SNR levels.
-    + *A[1-9]_Force_Exp_low_windowed_trends.pdf* -- trends in quality criteria (median, Q1, Q3) over all SNR levels. Results for all quality criteria, signal spoilers, and base one-class classifiers.
+    + *A[1-9]_Force_Exp_low_windowed_snr_m2.pdf* -- trends in quality criteria (median, Q1, Q3) over all SNR levels. Results for all quality criteria, signal spoilers, and base one-class classifiers.
   + Ranking over all sets
-    + *ALL_trends_ranks.pdf* -- average ranks plots for all SNR levels.
-    + *ALL_trends_ranks.md* -- average ranks and statistical tests in tabular form.
+    + *ALL_snr_m2_ranks.pdf" -- Average ranks plots for different SNR values, criteria, ensemble sizes.
+    + *ALL_snr_m2_ranks.md" -- Average ranks tables and statistical tests for different SNR values, criteria, ensemble sizes. 
