@@ -1267,13 +1267,8 @@ if __name__ == "__main__":
 
     analysis_functions = [
         analyze_results,
-
-        analyze_results_2B,
-        analyze_results_2B_ranks,
-        
         analyze_results_2C,
         analyze_results_2C_ranks,
-    
     ]
     alpha = 0.05
 
