@@ -30,6 +30,7 @@ setup(
                 'Jinja2==3.1.2',
                 'seaborn==0.13.2',
 		'kernelnb @ git+https://github.com/ptrajdos/KernelNB.git',
+                'DESlib==0.3.7',
                 
         ],
         test_suite='test'
